@@ -1,10 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
 .App {
   max-width: 600px;
   margin: auto;
   padding: 2rem;
+  font-family: "Satisfy", cursive;
+  color: #fefefe;
 }
 
 body {
   font-family: "Lato", sans-serif;
-  background-color: #efefef;
+  background-color: #3376ac;
+}
+
+p {
+  font-size: large;
+}
+
+.btn {
+  font-size: 18px;
+  cursor: pointer;
+  background: #e5e7eb;
+  border-radius: 1rem;
+  padding: 0.5rem 1rem;
+  border: none;
+  font-family: "Satisfy", cursive;
+  color: #3376ac;
+  margin: 1rem 0.3rem;
+}
+
+.bkName {
+  font-size: 22px;
+}
+
+.bkDesc {
+  font-size: 16px;
+}
+
+.booklist {
+  list-style: none;
+  padding: 1rem;
+  border: 1px solid #d1d5db;
+  width: 80%;
+  margin: 1rem 0rem;
+  border-radius: 1rem;
 }
